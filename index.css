@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: blueviolet;
+
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  background-color: rgb(216, 223, 179);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Salao {
+  width: 60%;
+  height: 600px;
+  border-radius: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+/*aqui*/
+div {
+  margin-left: 38%;
+  margin-right: 38%;
+
+}
+
+#conteudo_principal {
+  margin: 5%;
+  background-color: rgb(150, 185, 153);
+  padding: 5%;
+
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10%;
+}
+
+#botoẽs {
+  border: none;
+  color: white;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 650px;
+  cursor: pointer; }
+

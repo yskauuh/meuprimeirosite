@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Aura Beuty</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="22.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomecompleto">Nome Completo</label>
+            <input id="nomecompleto" type="text">
+
+            <label for="email">Email</label>
+            <input id="Email" type="text">
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text">
+
+            <label for="mensagem">mensagem</label>
+            <textarea cols="50" rows="1" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="" id="radio-whatsapp">
+            </div>
+
+            <label class="checkbox" >
+				<input type="checkbox" name="contato" checked id="contato">
+				Gostaria de receber nosso contato?
+			</label>
+			<div>
+				<p>Qual horário prefere ser atendido</p>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>
+					<option>Noite</option>
+				</select>
+			</div>
+
+			<input type="submit" class="enviar" value="Enviar Formulario">
+		</form>
+
+            <input type="submit" value="Enviar Formulário">
+        </form>
+    </main>
+    <footer>
+        <img src="borboleta .png">
+        <p>&copy;Copyright Aura Beauty- Desenvolvido por yskauuh</p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
